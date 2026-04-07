@@ -1,0 +1,13 @@
+
+models:
+  student: "meta-llama/Llama-3.2-3B-Instruct"
+  teacher: "gpt-4o-mini"
+  judge: "gpt-4o-mini"
+
+api:
+  base_url: null   # set to UTSA server if needed
+
+generation:
+  temperature: 0.2
+  max_tokens: 300
+
