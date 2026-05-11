@@ -1,0 +1,69 @@
+{
+  "num_examples": 100,
+  "json_validity_rate": 0.0,
+  "schema_compliance_rate": 0.0,
+  "exact_match_rate": 0.0,
+  "field_precision": 0.0,
+  "field_recall": 0.0,
+  "field_f1": 0.0,
+  "common_error_taxonomy": {
+    "missing_comma": 2,
+    "markdown_fence": 84,
+    "missing_bracket_or_brace": 6,
+    "extra_text_after_json": 8
+  },
+  "per_task": {
+    "json_repair": {
+      "num_examples": 20,
+      "json_validity_rate": 0.0,
+      "schema_compliance_rate": 0.0,
+      "exact_match_rate": 0.0,
+      "field_precision": 0.0,
+      "field_recall": 0.0,
+      "field_f1": 0.0
+    },
+    "tool_call_arguments": {
+      "num_examples": 20,
+      "json_validity_rate": 0.0,
+      "schema_compliance_rate": 0.0,
+      "exact_match_rate": 0.0,
+      "field_precision": 0.0,
+      "field_recall": 0.0,
+      "field_f1": 0.0
+    },
+    "json_classification": {
+      "num_examples": 20,
+      "json_validity_rate": 0.0,
+      "schema_compliance_rate": 0.0,
+      "exact_match_rate": 0.0,
+      "field_precision": 0.0,
+      "field_recall": 0.0,
+      "field_f1": 0.0
+    },
+    "json_extraction": {
+      "num_examples": 20,
+      "json_validity_rate": 0.0,
+      "schema_compliance_rate": 0.0,
+      "exact_match_rate": 0.0,
+      "field_precision": 0.0,
+      "field_recall": 0.0,
+      "field_f1": 0.0
+    },
+    "schema_generation": {
+      "num_examples": 20,
+      "json_validity_rate": 0.0,
+      "schema_compliance_rate": 0.0,
+      "exact_match_rate": 0.0,
+      "field_precision": 0.0,
+      "field_recall": 0.0,
+      "field_f1": 0.0
+    }
+  },
+  "checkpoint_name": "checkpoint0",
+  "model_path": "outputs/checkpoint0",
+  "eval_path": "data/eval/json_eval.json",
+  "generation_settings": {
+    "max_new_tokens": 512,
+    "temperature": 0.0
+  }
+}

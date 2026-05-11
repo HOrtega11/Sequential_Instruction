@@ -1,0 +1,6 @@
+metric,delta_checkpoint2_minus_checkpoint1
+alpaca_pairwise_judge_win_rate_delta,0.16
+rougeL,0.007113817232205055
+bertscore_f1,0.003952021002769479
+task_completion_rate,0.0
+avg_output_tokens,-2.6599999999999966

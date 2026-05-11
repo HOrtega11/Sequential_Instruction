@@ -1,0 +1,41 @@
+{
+  "alpaca_judge_checkpoint1_vs_checkpoint2": {
+    "num_examples": 100,
+    "left_model": "checkpoint1",
+    "right_model": "checkpoint2",
+    "left_win_rate": 0.22,
+    "right_win_rate": 0.38,
+    "tie_rate": 0.4,
+    "invalid_rate": 0.0,
+    "counts": {
+      "checkpoint1": 22,
+      "checkpoint2": 38,
+      "tie": 40,
+      "invalid": 0
+    },
+    "average_dimension_scores": {
+      "checkpoint1": {
+        "instruction_following": 3.86,
+        "correctness": 4.2,
+        "clarity": 3.61,
+        "completeness": 3.45,
+        "hallucination_risk": 1.41
+      },
+      "checkpoint2": {
+        "instruction_following": 3.94,
+        "correctness": 4.3,
+        "clarity": 3.73,
+        "completeness": 3.6,
+        "hallucination_risk": 1.36
+      }
+    }
+  },
+  "absolute_change_checkpoint2_minus_checkpoint1": {
+    "alpaca_pairwise_judge_win_rate_delta": 0.16,
+    "rougeL": 0.007113817232205055,
+    "bertscore_f1": 0.003952021002769479,
+    "task_completion_rate": 0.0,
+    "avg_output_tokens": -2.6599999999999966
+  },
+  "interpretation_hint": "Negative deltas on Alpaca metrics may indicate forgetting after Stage 2. The most important judge comparison is alpaca_checkpoint1_vs_checkpoint2."
+}

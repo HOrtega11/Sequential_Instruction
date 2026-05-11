@@ -1,0 +1,2740 @@
+{
+  "input_path": "data/json_instruct/json_train.json",
+  "summary": {
+    "total_examples": 300,
+    "valid_examples": 300,
+    "invalid_examples": 0,
+    "valid_rate": 1.0,
+    "invalid_rate": 0.0,
+    "per_task": {
+      "json_repair": {
+        "total": 60,
+        "valid": 60,
+        "invalid": 0
+      },
+      "schema_generation": {
+        "total": 60,
+        "valid": 60,
+        "invalid": 0
+      },
+      "json_extraction": {
+        "total": 60,
+        "valid": 60,
+        "invalid": 0
+      },
+      "json_classification": {
+        "total": 60,
+        "valid": 60,
+        "invalid": 0
+      },
+      "tool_call_arguments": {
+        "total": 60,
+        "valid": 60,
+        "invalid": 0
+      }
+    },
+    "error_counts": {}
+  },
+  "validation_records": [
+    {
+      "index": 1,
+      "id": "train_json_repair_1",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 2,
+      "id": "train_schema_generation_2",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 3,
+      "id": "train_json_extraction_3",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 4,
+      "id": "train_json_classification_4",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 5,
+      "id": "train_json_classification_5",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 6,
+      "id": "train_json_classification_6",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 7,
+      "id": "train_json_classification_7",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 8,
+      "id": "train_tool_call_arguments_8",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 9,
+      "id": "train_schema_generation_9",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 10,
+      "id": "train_json_extraction_10",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 11,
+      "id": "train_tool_call_arguments_11",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 12,
+      "id": "train_json_repair_12",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 13,
+      "id": "train_schema_generation_13",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 14,
+      "id": "train_schema_generation_14",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 15,
+      "id": "train_json_classification_15",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 16,
+      "id": "train_json_extraction_16",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 17,
+      "id": "train_tool_call_arguments_17",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 18,
+      "id": "train_json_classification_18",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 19,
+      "id": "train_json_extraction_19",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 20,
+      "id": "train_tool_call_arguments_20",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 21,
+      "id": "train_json_classification_21",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 22,
+      "id": "train_tool_call_arguments_22",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 23,
+      "id": "train_json_classification_23",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 24,
+      "id": "train_json_extraction_24",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 25,
+      "id": "train_json_classification_25",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 26,
+      "id": "train_json_repair_26",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 27,
+      "id": "train_json_extraction_27",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 28,
+      "id": "train_schema_generation_28",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 29,
+      "id": "train_schema_generation_29",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 30,
+      "id": "train_schema_generation_30",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 31,
+      "id": "train_tool_call_arguments_31",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 32,
+      "id": "train_tool_call_arguments_32",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 33,
+      "id": "train_json_extraction_33",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 34,
+      "id": "train_schema_generation_34",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 35,
+      "id": "train_schema_generation_35",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 36,
+      "id": "train_json_classification_36",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 37,
+      "id": "train_schema_generation_37",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 38,
+      "id": "train_json_extraction_38",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 39,
+      "id": "train_json_extraction_39",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 40,
+      "id": "train_json_repair_40",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 41,
+      "id": "train_json_repair_41",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 42,
+      "id": "train_json_extraction_42",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 43,
+      "id": "train_json_repair_43",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 44,
+      "id": "train_schema_generation_44",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 45,
+      "id": "train_json_classification_45",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 46,
+      "id": "train_tool_call_arguments_46",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 47,
+      "id": "train_tool_call_arguments_47",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 48,
+      "id": "train_schema_generation_48",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 49,
+      "id": "train_tool_call_arguments_49",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 50,
+      "id": "train_json_repair_50",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 51,
+      "id": "train_json_classification_51",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 52,
+      "id": "train_json_repair_52",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 53,
+      "id": "train_json_extraction_53",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 54,
+      "id": "train_tool_call_arguments_54",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 55,
+      "id": "train_json_classification_55",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 56,
+      "id": "train_tool_call_arguments_56",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 57,
+      "id": "train_json_extraction_57",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 58,
+      "id": "train_schema_generation_58",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 59,
+      "id": "train_schema_generation_59",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 60,
+      "id": "train_schema_generation_60",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 61,
+      "id": "train_json_classification_61",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 62,
+      "id": "train_json_classification_62",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 63,
+      "id": "train_json_extraction_63",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 64,
+      "id": "train_json_extraction_64",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 65,
+      "id": "train_tool_call_arguments_65",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 66,
+      "id": "train_schema_generation_66",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 67,
+      "id": "train_json_repair_67",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 68,
+      "id": "train_json_repair_68",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 69,
+      "id": "train_tool_call_arguments_69",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 70,
+      "id": "train_json_classification_70",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 71,
+      "id": "train_json_extraction_71",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 72,
+      "id": "train_schema_generation_72",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 73,
+      "id": "train_json_classification_73",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 74,
+      "id": "train_json_extraction_74",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 75,
+      "id": "train_json_extraction_75",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 76,
+      "id": "train_json_classification_76",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 77,
+      "id": "train_json_extraction_77",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 78,
+      "id": "train_json_repair_78",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 79,
+      "id": "train_json_classification_79",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 80,
+      "id": "train_json_repair_80",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 81,
+      "id": "train_json_extraction_81",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 82,
+      "id": "train_json_repair_82",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 83,
+      "id": "train_json_repair_83",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 84,
+      "id": "train_json_classification_84",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 85,
+      "id": "train_json_extraction_85",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 86,
+      "id": "train_tool_call_arguments_86",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 87,
+      "id": "train_json_classification_87",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 88,
+      "id": "train_json_extraction_88",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 89,
+      "id": "train_tool_call_arguments_89",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 90,
+      "id": "train_json_repair_90",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 91,
+      "id": "train_tool_call_arguments_91",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 92,
+      "id": "train_json_classification_92",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 93,
+      "id": "train_schema_generation_93",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 94,
+      "id": "train_tool_call_arguments_94",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 95,
+      "id": "train_schema_generation_95",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 96,
+      "id": "train_schema_generation_96",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 97,
+      "id": "train_schema_generation_97",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 98,
+      "id": "train_json_extraction_98",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 99,
+      "id": "train_json_classification_99",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 100,
+      "id": "train_json_extraction_100",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 101,
+      "id": "train_json_repair_101",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 102,
+      "id": "train_json_repair_102",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 103,
+      "id": "train_json_repair_103",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 104,
+      "id": "train_tool_call_arguments_104",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 105,
+      "id": "train_json_classification_105",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 106,
+      "id": "train_json_classification_106",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 107,
+      "id": "train_json_repair_107",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 108,
+      "id": "train_tool_call_arguments_108",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 109,
+      "id": "train_json_extraction_109",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 110,
+      "id": "train_schema_generation_110",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 111,
+      "id": "train_json_repair_111",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 112,
+      "id": "train_tool_call_arguments_112",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 113,
+      "id": "train_json_classification_113",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 114,
+      "id": "train_json_extraction_114",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 115,
+      "id": "train_json_repair_115",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 116,
+      "id": "train_json_repair_116",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 117,
+      "id": "train_json_classification_117",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 118,
+      "id": "train_json_extraction_118",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 119,
+      "id": "train_json_extraction_119",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 120,
+      "id": "train_json_classification_120",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 121,
+      "id": "train_schema_generation_121",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 122,
+      "id": "train_json_extraction_122",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 123,
+      "id": "train_json_repair_123",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 124,
+      "id": "train_json_classification_124",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 125,
+      "id": "train_json_classification_125",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 126,
+      "id": "train_schema_generation_126",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 127,
+      "id": "train_schema_generation_127",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 128,
+      "id": "train_json_extraction_128",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 129,
+      "id": "train_json_classification_129",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 130,
+      "id": "train_json_classification_130",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 131,
+      "id": "train_json_repair_131",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 132,
+      "id": "train_json_classification_132",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 133,
+      "id": "train_json_repair_133",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 134,
+      "id": "train_json_repair_134",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 135,
+      "id": "train_schema_generation_135",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 136,
+      "id": "train_schema_generation_136",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 137,
+      "id": "train_tool_call_arguments_137",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 138,
+      "id": "train_json_repair_138",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 139,
+      "id": "train_schema_generation_139",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 140,
+      "id": "train_tool_call_arguments_140",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 141,
+      "id": "train_tool_call_arguments_141",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 142,
+      "id": "train_json_extraction_142",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 143,
+      "id": "train_tool_call_arguments_143",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 144,
+      "id": "train_tool_call_arguments_144",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 145,
+      "id": "train_json_repair_145",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 146,
+      "id": "train_schema_generation_146",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 147,
+      "id": "train_json_extraction_147",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 148,
+      "id": "train_schema_generation_148",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 149,
+      "id": "train_json_classification_149",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 150,
+      "id": "train_schema_generation_150",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 151,
+      "id": "train_tool_call_arguments_151",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 152,
+      "id": "train_json_extraction_152",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 153,
+      "id": "train_tool_call_arguments_153",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 154,
+      "id": "train_json_repair_154",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 155,
+      "id": "train_json_extraction_155",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 156,
+      "id": "train_tool_call_arguments_156",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 157,
+      "id": "train_tool_call_arguments_157",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 158,
+      "id": "train_schema_generation_158",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 159,
+      "id": "train_schema_generation_159",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 160,
+      "id": "train_json_repair_160",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 161,
+      "id": "train_json_repair_161",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 162,
+      "id": "train_tool_call_arguments_162",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 163,
+      "id": "train_json_extraction_163",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 164,
+      "id": "train_schema_generation_164",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 165,
+      "id": "train_tool_call_arguments_165",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 166,
+      "id": "train_json_repair_166",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 167,
+      "id": "train_json_classification_167",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 168,
+      "id": "train_json_repair_168",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 169,
+      "id": "train_schema_generation_169",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 170,
+      "id": "train_json_classification_170",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 171,
+      "id": "train_tool_call_arguments_171",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 172,
+      "id": "train_json_extraction_172",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 173,
+      "id": "train_schema_generation_173",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 174,
+      "id": "train_tool_call_arguments_174",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 175,
+      "id": "train_tool_call_arguments_175",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 176,
+      "id": "train_tool_call_arguments_176",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 177,
+      "id": "train_json_extraction_177",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 178,
+      "id": "train_json_classification_178",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 179,
+      "id": "train_tool_call_arguments_179",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 180,
+      "id": "train_json_classification_180",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 181,
+      "id": "train_schema_generation_181",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 182,
+      "id": "train_tool_call_arguments_182",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 183,
+      "id": "train_schema_generation_183",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 184,
+      "id": "train_json_repair_184",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 185,
+      "id": "train_tool_call_arguments_185",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 186,
+      "id": "train_json_classification_186",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 187,
+      "id": "train_tool_call_arguments_187",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 188,
+      "id": "train_tool_call_arguments_188",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 189,
+      "id": "train_json_extraction_189",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 190,
+      "id": "train_json_classification_190",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 191,
+      "id": "train_json_repair_191",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 192,
+      "id": "train_json_classification_192",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 193,
+      "id": "train_json_repair_193",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 194,
+      "id": "train_tool_call_arguments_194",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 195,
+      "id": "train_tool_call_arguments_195",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 196,
+      "id": "train_schema_generation_196",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 197,
+      "id": "train_schema_generation_197",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 198,
+      "id": "train_json_extraction_198",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 199,
+      "id": "train_json_classification_199",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 200,
+      "id": "train_json_repair_200",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 201,
+      "id": "train_tool_call_arguments_201",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 202,
+      "id": "train_json_repair_202",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 203,
+      "id": "train_json_classification_203",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 204,
+      "id": "train_json_repair_204",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 205,
+      "id": "train_json_classification_205",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 206,
+      "id": "train_json_extraction_206",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 207,
+      "id": "train_json_repair_207",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 208,
+      "id": "train_tool_call_arguments_208",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 209,
+      "id": "train_json_extraction_209",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 210,
+      "id": "train_tool_call_arguments_210",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 211,
+      "id": "train_json_extraction_211",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 212,
+      "id": "train_json_classification_212",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 213,
+      "id": "train_schema_generation_213",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 214,
+      "id": "train_json_repair_214",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 215,
+      "id": "train_json_repair_215",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 216,
+      "id": "train_json_classification_216",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 217,
+      "id": "train_tool_call_arguments_217",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 218,
+      "id": "train_schema_generation_218",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 219,
+      "id": "train_json_repair_219",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 220,
+      "id": "train_tool_call_arguments_220",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 221,
+      "id": "train_schema_generation_221",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 222,
+      "id": "train_schema_generation_222",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 223,
+      "id": "train_json_classification_223",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 224,
+      "id": "train_json_extraction_224",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 225,
+      "id": "train_json_extraction_225",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 226,
+      "id": "train_schema_generation_226",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 227,
+      "id": "train_json_classification_227",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 228,
+      "id": "train_json_extraction_228",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 229,
+      "id": "train_schema_generation_229",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 230,
+      "id": "train_json_repair_230",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 231,
+      "id": "train_json_extraction_231",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 232,
+      "id": "train_json_extraction_232",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 233,
+      "id": "train_tool_call_arguments_233",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 234,
+      "id": "train_json_classification_234",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 235,
+      "id": "train_json_repair_235",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 236,
+      "id": "train_json_classification_236",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 237,
+      "id": "train_tool_call_arguments_237",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 238,
+      "id": "train_json_classification_238",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 239,
+      "id": "train_json_classification_239",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 240,
+      "id": "train_schema_generation_240",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 241,
+      "id": "train_tool_call_arguments_241",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 242,
+      "id": "train_json_repair_242",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 243,
+      "id": "train_json_extraction_243",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 244,
+      "id": "train_json_repair_244",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 245,
+      "id": "train_schema_generation_245",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 246,
+      "id": "train_schema_generation_246",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 247,
+      "id": "train_tool_call_arguments_247",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 248,
+      "id": "train_json_extraction_248",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 249,
+      "id": "train_json_classification_249",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 250,
+      "id": "train_json_extraction_250",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 251,
+      "id": "train_tool_call_arguments_251",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 252,
+      "id": "train_json_extraction_252",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 253,
+      "id": "train_json_repair_253",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 254,
+      "id": "train_json_repair_254",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 255,
+      "id": "train_tool_call_arguments_255",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 256,
+      "id": "train_json_classification_256",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 257,
+      "id": "train_json_classification_257",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 258,
+      "id": "train_json_repair_258",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 259,
+      "id": "train_schema_generation_259",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 260,
+      "id": "train_schema_generation_260",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 261,
+      "id": "train_tool_call_arguments_261",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 262,
+      "id": "train_json_extraction_262",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 263,
+      "id": "train_json_repair_263",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 264,
+      "id": "train_json_extraction_264",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 265,
+      "id": "train_schema_generation_265",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 266,
+      "id": "train_json_classification_266",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 267,
+      "id": "train_tool_call_arguments_267",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 268,
+      "id": "train_json_repair_268",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 269,
+      "id": "train_json_classification_269",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 270,
+      "id": "train_schema_generation_270",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 271,
+      "id": "train_json_extraction_271",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 272,
+      "id": "train_json_repair_272",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 273,
+      "id": "train_schema_generation_273",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 274,
+      "id": "train_schema_generation_274",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 275,
+      "id": "train_json_classification_275",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 276,
+      "id": "train_schema_generation_276",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 277,
+      "id": "train_json_repair_277",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 278,
+      "id": "train_json_repair_278",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 279,
+      "id": "train_json_extraction_279",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 280,
+      "id": "train_json_classification_280",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 281,
+      "id": "train_schema_generation_281",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 282,
+      "id": "train_json_repair_282",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 283,
+      "id": "train_json_extraction_283",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 284,
+      "id": "train_json_repair_284",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 285,
+      "id": "train_json_classification_285",
+      "task_type": "json_classification",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 286,
+      "id": "train_json_extraction_286",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 287,
+      "id": "train_schema_generation_287",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 288,
+      "id": "train_json_repair_288",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 289,
+      "id": "train_schema_generation_289",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 290,
+      "id": "train_tool_call_arguments_290",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 291,
+      "id": "train_json_repair_291",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 292,
+      "id": "train_json_extraction_292",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 293,
+      "id": "train_tool_call_arguments_293",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 294,
+      "id": "train_schema_generation_294",
+      "task_type": "schema_generation",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 295,
+      "id": "train_json_extraction_295",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 296,
+      "id": "train_json_extraction_296",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 297,
+      "id": "train_json_extraction_297",
+      "task_type": "json_extraction",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 298,
+      "id": "train_tool_call_arguments_298",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 299,
+      "id": "train_json_repair_299",
+      "task_type": "json_repair",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    },
+    {
+      "index": 300,
+      "id": "train_tool_call_arguments_300",
+      "task_type": "tool_call_arguments",
+      "valid_required_fields": true,
+      "valid_json": true,
+      "schema_valid": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "train_json_repair_107",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"title\": \"Report\", \"pages\": twelve, \"status\": \"draft\"}",
+    "output": "{\"title\": \"Report\", \"pages\": 12, \"status\": \"draft\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_90",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"station\": \"North\", \"arrivals\": [\"7:00\", \"7:15\" \"7:30\"]}",
+    "output": "{\"station\": \"North\", \"arrivals\": [\"7:00\", \"7:15\", \"7:30\"]}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_193",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"product_name\": \"Mouse\", \"price\": 25.99, \"in_stock\": tru}",
+    "output": "{\"product_name\": \"Mouse\", \"price\": 25.99, \"in_stock\": true}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_145",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"festival\": \"Lights\", \"days\": [\"Friday\", \"Saturday\", \"Sunday\",], \"outdoor\": true}",
+    "output": "{\"festival\": \"Lights\", \"days\": [\"Friday\", \"Saturday\", \"Sunday\"], \"outdoor\": true}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_134",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"address\": {\"street\": \"123 Main St\", \"city\": \"Austin\", \"state\": \"TX\", \"zip\": 78701,}}",
+    "output": "{\"address\": {\"street\": \"123 Main St\", \"city\": \"Austin\", \"state\": \"TX\", \"zip\": 78701}}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_207",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"lab\": \"CBC\", \"hemoglobin\": 13.2, \"platelets\": 250000 \"units\": \"per_uL\"}",
+    "output": "{\"lab\": \"CBC\", \"hemoglobin\": 13.2, \"platelets\": 250000, \"units\": \"per_uL\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_284",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"order_id\": 12345, \"items\": [{\"sku\": \"A1\", \"qty\": 2}, {\"sku\": \"B2\", \"qty\": 1}],}",
+    "output": "{\"order_id\": 12345, \"items\": [{\"sku\": \"A1\", \"qty\": 2}, {\"sku\": \"B2\", \"qty\": 1}]}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_191",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"items\": [\"pen\", \"notebook\" \"eraser\"], \"count\": 3}",
+    "output": "{\"items\": [\"pen\", \"notebook\", \"eraser\"], \"count\": 3}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_253",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"unit\": \"PICU\", \"patient_count\": 14 \"nurses_on_shift\": 6}",
+    "output": "{\"unit\": \"PICU\", \"patient_count\": 14, \"nurses_on_shift\": 6}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_116",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"browser\": \"Firefox\", \"version\": 123 \"platform\": \"Linux\"}",
+    "output": "{\"browser\": \"Firefox\", \"version\": 123, \"platform\": \"Linux\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_254",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"dosage_mg\": 5, \"frequency\": \"daily\", \"prn\": False}",
+    "output": "{\"dosage_mg\": 5, \"frequency\": \"daily\", \"prn\": false}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_277",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"name\": \"John\", \"age\": 31, \"skills\": [\"python\", \"sql\",}",
+    "output": "{\"name\": \"John\", \"age\": 31, \"skills\": [\"python\", \"sql\"]}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_101",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"schedule\": {\"day\": \"Monday\", \"time\": \"08:00\"}",
+    "output": "{\"schedule\": {\"day\": \"Monday\", \"time\": \"08:00\"}}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_160",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"temperature\": 98.6, \"symptoms\": [\"cough\", \"fatigue\"], \"follow_up\": yes}",
+    "output": "{\"temperature\": 98.6, \"symptoms\": [\"cough\", \"fatigue\"], \"follow_up\": true}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_154",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"policy\": \"refund\", \"days\": 30, \"exceptions\": [\"final sale\" \"gift cards\"]}",
+    "output": "{\"policy\": \"refund\", \"days\": 30, \"exceptions\": [\"final sale\", \"gift cards\"]}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_244",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"hospital\": \"Memorial\", \"beds_total\": 300, \"beds_open\": 24,}",
+    "output": "{\"hospital\": \"Memorial\", \"beds_total\": 300, \"beds_open\": 24}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_133",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"code\": \"A17\", \"valid\": false, \"retries\": 3,,}",
+    "output": "{\"code\": \"A17\", \"valid\": false, \"retries\": 3}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_43",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"fruit\": \"apple\", \"count\": 5, \"color\": red}",
+    "output": "{\"fruit\": \"apple\", \"count\": 5, \"color\": \"red\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_272",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"course\": \"Biology\", \"credits\": 4 \"semester\": \"Fall\"}",
+    "output": "{\"course\": \"Biology\", \"credits\": 4, \"semester\": \"Fall\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_67",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"ticket\": \"A-113\", \"open\": true, \"priority\": \"high\"",
+    "output": "{\"ticket\": \"A-113\", \"open\": true, \"priority\": \"high\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_268",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"priority\": \"low\", \"resolved\": false, \"owner\": \"Sam\", \"tags\": [\"ops\", \"infra\",}",
+    "output": "{\"priority\": \"low\", \"resolved\": false, \"owner\": \"Sam\", \"tags\": [\"ops\", \"infra\"]}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_52",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"flight\": {\"origin\": \"SAT\", \"destination\": \"ORD\", \"date\": \"2026-06-10\",}}",
+    "output": "{\"flight\": {\"origin\": \"SAT\", \"destination\": \"ORD\", \"date\": \"2026-06-10\"}}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_242",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"project\": \"SeqTune\", \"phase\": \"stage2\", \"owner\": \"Horus\", \"active\": true,}",
+    "output": "{\"project\": \"SeqTune\", \"phase\": \"stage2\", \"owner\": \"Horus\", \"active\": true}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_78",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"medications\": [\"aspirin\", \"metformin\"], \"allergies\": [\"penicillin\",], \"age\": 54}",
+    "output": "{\"medications\": [\"aspirin\", \"metformin\"], \"allergies\": [\"penicillin\"], \"age\": 54}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_123",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"author\": \"Jane Austen\", \"works\": [\"Pride and Prejudice\", \"Emma\"], \"born\": 1775,,}",
+    "output": "{\"author\": \"Jane Austen\", \"works\": [\"Pride and Prejudice\", \"Emma\"], \"born\": 1775}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_282",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"favorite_color\": \"blue\", \"rgb\": [0, 0, 255,,]}",
+    "output": "{\"favorite_color\": \"blue\", \"rgb\": [0, 0, 255]}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_83",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"conference\": \"MedTech\", \"year\": 2027, \"location\": \"Boston\",,}",
+    "output": "{\"conference\": \"MedTech\", \"year\": 2027, \"location\": \"Boston\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_1",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"package\": {\"weight\": 2.5, \"unit\": \"kg\"}, \"fragile\": true, \"tracking\": \"ZX123\",}",
+    "output": "{\"package\": {\"weight\": 2.5, \"unit\": \"kg\"}, \"fragile\": true, \"tracking\": \"ZX123\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_202",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"login_count\": 12, \"last_seen\": \"2026-03-01T12:00:00\" \"status\": \"active\"}",
+    "output": "{\"login_count\": 12, \"last_seen\": \"2026-03-01T12:00:00\", \"status\": \"active\"}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_json_repair_263",
+    "instruction": "Repair the malformed JSON and return only valid JSON.",
+    "input": "{\"language\": \"Python\", \"versions\": [3.9, 3.10, 3.11,, 3.12]}",
+    "output": "{\"language\": \"Python\", \"versions\": [3.9, 3.10, 3.11, 3.12]}",
+    "task_type": "json_repair"
+  },
+  {
+    "id": "train_schema_generation_240",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a coat hanger.",
+    "output": "{\n  \"product_name\": \"Wooden Coat Hanger\",\n  \"price\": 7.99,\n  \"in_stock\": true,\n  \"tags\": [\"closet\", \"organizer\", \"wood\", \"hanger\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_121",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a whiteboard.",
+    "output": "{\n  \"product_name\": \"Magnetic Dry Erase Whiteboard\",\n  \"price\": 29.99,\n  \"in_stock\": true,\n  \"tags\": [\"office\", \"school\", \"whiteboard\", \"dry erase\", \"magnetic\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_226",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a label maker.",
+    "output": "{\n  \"product_name\": \"Smart Label Maker 3000\",\n  \"price\": 49.99,\n  \"in_stock\": true,\n  \"tags\": [\"office\", \"labeling\", \"organization\", \"electronics\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_221",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a desk organizer.",
+    "output": "{\n  \"product_name\": \"Wooden Desk Organizer\",\n  \"price\": 24.99,\n  \"in_stock\": true,\n  \"tags\": [\"office\", \"storage\", \"wood\", \"accessories\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_159",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a backpack.",
+    "output": "{\n  \"product_name\": \"Trailblazer Hiking Backpack\",\n  \"price\": 79.99,\n  \"in_stock\": true,\n  \"tags\": [\"outdoor\", \"hiking\", \"backpack\", \"travel\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_246",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a phone charger.",
+    "output": "{\n  \"product_name\": \"FastCharge USB-C Phone Charger\",\n  \"price\": 19.99,\n  \"in_stock\": true,\n  \"tags\": [\"electronics\", \"charger\", \"USB-C\", \"mobile accessory\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_2",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a wireless mouse.",
+    "output": "{\n  \"product_name\": \"ErgoPro Wireless Mouse\",\n  \"price\": 29.99,\n  \"in_stock\": true,\n  \"tags\": [\"electronics\", \"wireless\", \"mouse\", \"computer accessory\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_35",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a toaster oven.",
+    "output": "{\n  \"product_name\": \"Compact Toaster Oven\",\n  \"price\": 49.99,\n  \"in_stock\": true,\n  \"tags\": [\"kitchen\", \"appliance\", \"toaster\", \"oven\", \"countertop\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_270",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a car mount.",
+    "output": "{\n  \"product_name\": \"Universal Car Phone Mount\",\n  \"price\": 19.99,\n  \"in_stock\": true,\n  \"tags\": [\"car accessory\", \"phone holder\", \"mount\", \"dashboard\", \"universal\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_229",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a wireless presenter.",
+    "output": "{\n  \"product_name\": \"ProClick Wireless Presenter\",\n  \"price\": 29.99,\n  \"in_stock\": true,\n  \"tags\": [\"electronics\", \"presentation\", \"wireless\", \"office\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_218",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a portable fan.",
+    "output": "{\n  \"product_name\": \"BreezeLite Portable Fan\",\n  \"price\": 24.99,\n  \"in_stock\": true,\n  \"tags\": [\"portable\", \"fan\", \"cooling\", \"battery-operated\", \"summer\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_66",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a coffee grinder.",
+    "output": "{\n  \"product_name\": \"BrewMaster Electric Coffee Grinder\",\n  \"price\": 49.99,\n  \"in_stock\": true,\n  \"tags\": [\"kitchen\", \"appliance\", \"coffee\", \"grinder\", \"electric\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_135",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a desk lamp.",
+    "output": "{\n  \"product_name\": \"Modern LED Desk Lamp\",\n  \"price\": 34.99,\n  \"in_stock\": true,\n  \"tags\": [\"lighting\", \"office\", \"LED\", \"adjustable\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_276",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a resistance bands.",
+    "output": "{\n  \"product_name\": \"Premium Resistance Bands Set\",\n  \"price\": 24.99,\n  \"in_stock\": true,\n  \"tags\": [\"fitness\", \"exercise\", \"home gym\", \"strength training\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_158",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a electric toothbrush.",
+    "output": "{\n  \"product_name\": \"SonicClean Electric Toothbrush\",\n  \"price\": 49.99,\n  \"in_stock\": true,\n  \"tags\": [\"oral care\", \"rechargeable\", \"hygiene\", \"toothbrush\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_289",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a flashlight.",
+    "output": "{\n  \"product_name\": \"UltraBeam LED Flashlight\",\n  \"price\": 19.99,\n  \"in_stock\": true,\n  \"tags\": [\"outdoor\", \"camping\", \"LED\", \"portable\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_139",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a sleep mask.",
+    "output": "{\n  \"product_name\": \"Silk Sleep Mask\",\n  \"price\": 19.99,\n  \"in_stock\": true,\n  \"tags\": [\"sleep\", \"mask\", \"silk\", \"comfort\", \"travel\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_97",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a lunch container.",
+    "output": "{\n  \"product_name\": \"Stainless Steel Lunch Container\",\n  \"price\": 18.99,\n  \"in_stock\": true,\n  \"tags\": [\"kitchen\", \"lunch\", \"container\", \"reusable\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_213",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a document scanner.",
+    "output": "{\n  \"product_name\": \"ScanMaster Pro 3000\",\n  \"price\": 249.99,\n  \"in_stock\": true,\n  \"tags\": [\"scanner\", \"document\", \"office\", \"electronics\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_196",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a smartwatch.",
+    "output": "{\n  \"product_name\": \"PulseFit Pro Smartwatch\",\n  \"price\": 149.99,\n  \"in_stock\": true,\n  \"tags\": [\"wearable\", \"fitness\", \"bluetooth\", \"water-resistant\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_34",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a office chair.",
+    "output": "{\n  \"product_name\": \"ErgoFlex Mesh Office Chair\",\n  \"price\": 189.99,\n  \"in_stock\": true,\n  \"tags\": [\"ergonomic\", \"adjustable\", \"mesh\", \"office\", \"chair\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_281",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a power strip.",
+    "output": "{\n  \"product_name\": \"Surge Protector Power Strip\",\n  \"price\": 19.99,\n  \"in_stock\": true,\n  \"tags\": [\"electronics\", \"power\", \"surge protector\", \"accessory\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_245",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a cooler bag.",
+    "output": "{\n  \"product_name\": \"Insulated Cooler Bag\",\n  \"price\": 24.99,\n  \"in_stock\": true,\n  \"tags\": [\"outdoor\", \"picnic\", \"insulated\", \"portable\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_96",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a standing desk.",
+    "output": "{\n  \"product_name\": \"ErgoLift Adjustable Standing Desk\",\n  \"price\": 349.99,\n  \"in_stock\": true,\n  \"tags\": [\"office\", \"furniture\", \"ergonomic\", \"adjustable\", \"standing desk\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_28",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a mini projector.",
+    "output": "{\n  \"product_name\": \"Mini HD Projector\",\n  \"price\": 89.99,\n  \"in_stock\": true,\n  \"tags\": [\"electronics\", \"portable\", \"home theater\", \"projector\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_169",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a laptop stand.",
+    "output": "{\n  \"product_name\": \"Adjustable Aluminum Laptop Stand\",\n  \"price\": 39.99,\n  \"in_stock\": true,\n  \"tags\": [\"laptop\", \"stand\", \"ergonomic\", \"office\", \"portable\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_287",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a pulse oximeter.",
+    "output": "{\n  \"product_name\": \"Pulse Oximeter Pro 500\",\n  \"price\": 39.99,\n  \"in_stock\": true,\n  \"tags\": [\"medical device\", \"health\", \"oxygen monitor\", \"finger sensor\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_30",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a fitness tracker.",
+    "output": "{\n  \"product_name\": \"FitPulse Pro Fitness Tracker\",\n  \"price\": 79.99,\n  \"in_stock\": true,\n  \"tags\": [\"wearable\", \"health\", \"activity tracker\", \"bluetooth\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_29",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a reusable tote.",
+    "output": "{\n  \"product_name\": \"Eco-Friendly Reusable Tote Bag\",\n  \"price\": 12.99,\n  \"in_stock\": true,\n  \"tags\": [\"eco-friendly\", \"reusable\", \"shopping\", \"bag\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_schema_generation_127",
+    "instruction": "Create a valid JSON object with keys: product_name (string), price (number), in_stock (boolean), tags (array of strings).",
+    "input": "Generate an example product record for a surgical headlight.",
+    "output": "{\n  \"product_name\": \"LED Surgical Headlight\",\n  \"price\": 899.99,\n  \"in_stock\": true,\n  \"tags\": [\"medical\", \"surgery\", \"headlight\", \"LED\", \"equipment\"]\n}",
+    "task_type": "schema_generation"
+  },
+  {
+    "id": "train_json_extraction_38",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Charlotte Allen attended the ethics debate in San Diego on September 1, 2025.",
+    "output": "{\n  \"person_name\": \"Charlotte Allen\",\n  \"date\": \"2025-09-01\",\n  \"city\": \"San Diego\",\n  \"event\": \"ethics debate\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_33",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Jordan Powell attended the transplant medicine update in Toledo on January 31, 2030.",
+    "output": "{\n  \"person_name\": \"Jordan Powell\",\n  \"date\": \"2030-01-31\",\n  \"city\": \"Toledo\",\n  \"event\": \"transplant medicine update\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_296",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Carter Edwards attended the legal medicine discussion in Albuquerque on January 26, 2027.",
+    "output": "{\n  \"person_name\": \"Carter Edwards\",\n  \"date\": \"2027-01-26\",\n  \"city\": \"Albuquerque\",\n  \"event\": \"legal medicine discussion\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_206",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Bella Perry attended the research integrity panel in Grand Rapids on December 19, 2029.",
+    "output": "{\n  \"person_name\": \"Bella Perry\",\n  \"date\": \"2029-12-19\",\n  \"city\": \"Grand Rapids\",\n  \"event\": \"research integrity panel\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_292",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Abigail Nelson attended the residency orientation in Kansas City on February 11, 2026.",
+    "output": "{\n  \"person_name\": \"Abigail Nelson\",\n  \"date\": \"2026-02-11\",\n  \"city\": \"Kansas City\",\n  \"event\": \"residency orientation\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_39",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Isaac Reed attended the hospital operations review in Memphis on July 13, 2027.",
+    "output": "{\n  \"person_name\": \"Isaac Reed\",\n  \"date\": \"2027-07-13\",\n  \"city\": \"Memphis\",\n  \"event\": \"hospital operations review\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_225",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Isaiah Sanders attended the simulation debriefing in Knoxville on March 15, 2029.",
+    "output": "{\n  \"person_name\": \"Isaiah Sanders\",\n  \"date\": \"March 15, 2029\",\n  \"city\": \"Knoxville\",\n  \"event\": \"simulation debriefing\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_252",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Daniel Kim attended the public health seminar in Dallas on February 18, 2025.",
+    "output": "{\n  \"person_name\": \"Daniel Kim\",\n  \"date\": \"February 18, 2025\",\n  \"city\": \"Dallas\",\n  \"event\": \"public health seminar\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_232",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Nathan Rivera attended the epidemiology update in El Paso on January 19, 2028.",
+    "output": "{\n  \"person_name\": \"Nathan Rivera\",\n  \"date\": \"January 19, 2028\",\n  \"city\": \"El Paso\",\n  \"event\": \"epidemiology update\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_243",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Zoe Rogers attended the quality improvement session in Birmingham on June 28, 2027.",
+    "output": "{\n  \"person_name\": \"Zoe Rogers\",\n  \"date\": \"2027-06-28\",\n  \"city\": \"Birmingham\",\n  \"event\": \"quality improvement session\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_74",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Charles Butler attended the health equity roundtable in Modesto on July 18, 2030.",
+    "output": "{\n  \"person_name\": \"Charles Butler\",\n  \"date\": \"2030-07-18\",\n  \"city\": \"Modesto\",\n  \"event\": \"health equity roundtable\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_262",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Ethan Walker attended the emergency medicine summit in Phoenix on March 27, 2025.",
+    "output": "{\n  \"person_name\": \"Ethan Walker\",\n  \"date\": \"2025-03-27\",\n  \"city\": \"Phoenix\",\n  \"event\": \"emergency medicine summit\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_209",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Lucas Brown attended the surgical skills lab in Boston on April 19, 2025.",
+    "output": "{\n  \"person_name\": \"Lucas Brown\",\n  \"date\": \"2025-04-19\",\n  \"city\": \"Boston\",\n  \"event\": \"surgical skills lab\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_27",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Michael Green attended the finance workshop in Charlotte on November 23, 2025.",
+    "output": "{\n  \"person_name\": \"Michael Green\",\n  \"date\": \"November 23, 2025\",\n  \"city\": \"Charlotte\",\n  \"event\": \"finance workshop\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_114",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Emma Lewis attended the pediatrics lecture in Portland on August 4, 2025.",
+    "output": "{\n  \"person_name\": \"Emma Lewis\",\n  \"date\": \"2025-08-04\",\n  \"city\": \"Portland\",\n  \"event\": \"pediatrics lecture\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_271",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Levi Barnes attended the vaccination campaign launch in Fort Worth on July 2, 2029.",
+    "output": "{\n  \"person_name\": \"Levi Barnes\",\n  \"date\": \"2029-07-02\",\n  \"city\": \"Fort Worth\",\n  \"event\": \"vaccination campaign launch\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_228",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Joseph Perez attended the research poster session in Sacramento on July 25, 2026.",
+    "output": "{\n  \"person_name\": \"Joseph Perez\",\n  \"date\": \"July 25, 2026\",\n  \"city\": \"Sacramento\",\n  \"event\": \"research poster session\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_10",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Evelyn Baker attended the environmental health meeting in Raleigh on December 11, 2025.",
+    "output": "{\n  \"person_name\": \"Evelyn Baker\",\n  \"date\": \"December 11, 2025\",\n  \"city\": \"Raleigh\",\n  \"event\": \"environmental health meeting\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_100",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Owen Murphy attended the clinical reasoning conference in Tucson on November 21, 2027.",
+    "output": "{\n  \"person_name\": \"Owen Murphy\",\n  \"date\": \"2027-11-21\",\n  \"city\": \"Tucson\",\n  \"event\": \"clinical reasoning conference\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_152",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Paisley Coleman attended the clinical documentation workshop in Little Rock on October 28, 2029.",
+    "output": "{\n  \"person_name\": \"Paisley Coleman\",\n  \"date\": \"2029-10-28\",\n  \"city\": \"Little Rock\",\n  \"event\": \"clinical documentation workshop\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_211",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Naomi Simmons attended the immunology conference in Berkeley on August 30, 2030.",
+    "output": "{\n  \"person_name\": \"Naomi Simmons\",\n  \"date\": \"August 30, 2030\",\n  \"city\": \"Berkeley\",\n  \"event\": \"immunology conference\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_147",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Noah Wilson attended the neuroscience colloquium in Atlanta on May 16, 2025.",
+    "output": "{\n  \"person_name\": \"Noah Wilson\",\n  \"date\": \"2025-05-16\",\n  \"city\": \"Atlanta\",\n  \"event\": \"neuroscience colloquium\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_71",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Chloe Phillips attended the supply chain conference in Baltimore on October 14, 2026.",
+    "output": "{\n  \"person_name\": \"Chloe Phillips\",\n  \"date\": \"2026-10-14\",\n  \"city\": \"Baltimore\",\n  \"event\": \"supply chain conference\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_85",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Jonathan Foster attended the student research colloquium in Irvine on September 22, 2030.",
+    "output": "{\n  \"person_name\": \"Jonathan Foster\",\n  \"date\": \"September 22, 2030\",\n  \"city\": \"Irvine\",\n  \"event\": \"student research colloquium\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_155",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Henry Young attended the AI policy summit in New York on September 14, 2025.",
+    "output": "{\n  \"person_name\": \"Henry Young\",\n  \"date\": \"September 14, 2025\",\n  \"city\": \"New York\",\n  \"event\": \"AI policy summit\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_122",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Aisha Khan attended the machine learning workshop in San Antonio on February 3, 2025.",
+    "output": "{\n  \"person_name\": \"Aisha Khan\",\n  \"date\": \"February 3, 2025\",\n  \"city\": \"San Antonio\",\n  \"event\": \"machine learning workshop\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_224",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Anna Watson attended the precision medicine discussion in Frisco on December 18, 2028.",
+    "output": "{\n  \"person_name\": \"Anna Watson\",\n  \"date\": \"2028-12-18\",\n  \"city\": \"Frisco\",\n  \"event\": \"precision medicine discussion\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_297",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Jack Wright attended the medical imaging session in Minneapolis on October 20, 2025.",
+    "output": "{\n  \"person_name\": \"Jack Wright\",\n  \"date\": \"2025-10-20\",\n  \"city\": \"Minneapolis\",\n  \"event\": \"medical imaging session\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_250",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Gabriel Morgan attended the graduate recruitment event in Richmond on September 16, 2027.",
+    "output": "{\n  \"person_name\": \"Gabriel Morgan\",\n  \"date\": \"September 16, 2027\",\n  \"city\": \"Richmond\",\n  \"event\": \"graduate recruitment event\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_json_extraction_77",
+    "instruction": "Extract the person name, date, city, and event from the text and return a valid JSON object.",
+    "input": "Ella Ramirez attended the critical care simulation in Cleveland on April 17, 2026.",
+    "output": "{\n  \"person_name\": \"Ella Ramirez\",\n  \"date\": \"2026-04-17\",\n  \"city\": \"Cleveland\",\n  \"event\": \"critical care simulation\"\n}",
+    "task_type": "json_extraction"
+  },
+  {
+    "id": "train_tool_call_arguments_251",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Tacoma to Fort Worth on January 17, 2029 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Tacoma\",\n  \"destination\": \"Fort Worth\",\n  \"date\": \"2029-01-17\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_20",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Reno to Houston on August 5, 2032 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Reno\",\n  \"destination\": \"Houston\",\n  \"date\": \"2032-08-05\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_104",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Savannah to Asheville on June 12, 2029 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Savannah\",\n  \"destination\": \"Asheville\",\n  \"date\": \"2029-06-12\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_298",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Waco to Irving on August 25, 2028 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Waco\",\n  \"destination\": \"Irving\",\n  \"date\": \"2028-08-25\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_174",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Dallas to Seattle on December 9, 2029 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Dallas\",\n  \"destination\": \"Seattle\",\n  \"date\": \"2029-12-09\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_247",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Corpus Christi to Atlanta on October 1, 2032 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Corpus Christi\",\n  \"destination\": \"Atlanta\",\n  \"date\": \"2032-10-01\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_182",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Milwaukee to Chicago on April 4, 2031 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Milwaukee\",\n  \"destination\": \"Chicago\",\n  \"date\": \"2031-04-04\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_108",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Birmingham to Orlando on September 26, 2031 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Birmingham\",\n  \"destination\": \"Orlando\",\n  \"date\": \"2031-09-26\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_49",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Baton Rouge to Jackson on February 8, 2029 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Baton Rouge\",\n  \"destination\": \"Jackson\",\n  \"date\": \"2029-02-08\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_56",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Cleveland to Dallas on December 14, 2030 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Cleveland\",\n  \"destination\": \"Dallas\",\n  \"date\": \"2030-12-14\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_140",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Salt Lake City to Philadelphia on June 5, 2030 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Salt Lake City\",\n  \"destination\": \"Philadelphia\",\n  \"date\": \"2030-06-05\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_233",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Buffalo to Austin on January 12, 2032 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Buffalo\",\n  \"destination\": \"Austin\",\n  \"date\": \"2032-01-12\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_47",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Chattanooga to Knoxville on November 11, 2028 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Chattanooga\",\n  \"destination\": \"Knoxville\",\n  \"date\": \"2028-11-11\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_237",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Dallas to Boston on September 21, 2026 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Dallas\",\n  \"destination\": \"Boston\",\n  \"date\": \"2026-09-21\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_208",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Louisville to Richmond on February 13, 2028 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Louisville\",\n  \"destination\": \"Richmond\",\n  \"date\": \"2028-02-13\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_157",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Cincinnati to Madison on December 3, 2027 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Cincinnati\",\n  \"destination\": \"Madison\",\n  \"date\": \"2027-12-03\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_267",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Raleigh to Minneapolis on April 11, 2027 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Raleigh\",\n  \"destination\": \"Minneapolis\",\n  \"date\": \"2027-04-11\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_32",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Memphis to San Diego on October 19, 2031 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Memphis\",\n  \"destination\": \"San Diego\",\n  \"date\": \"2031-10-19\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_300",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Philadelphia to Detroit on February 16, 2027 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Philadelphia\",\n  \"destination\": \"Detroit\",\n  \"date\": \"2027-02-16\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_210",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Boise to Seattle on March 30, 2032 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Boise\",\n  \"destination\": \"Seattle\",\n  \"date\": \"2032-03-30\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_86",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Madison to Portland on August 31, 2031 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Madison\",\n  \"destination\": \"Portland\",\n  \"date\": \"2031-08-31\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_89",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Pittsburgh to Miami on January 6, 2031 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Pittsburgh\",\n  \"destination\": \"Miami\",\n  \"date\": \"2031-01-06\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_162",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Charlotte to Los Angeles on July 16, 2030 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Charlotte\",\n  \"destination\": \"Los Angeles\",\n  \"date\": \"2030-07-16\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_22",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Anchorage to Miami on June 24, 2032 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Anchorage\",\n  \"destination\": \"Miami\",\n  \"date\": \"2032-06-24\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_220",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Raleigh to San Antonio on August 29, 2030 for 1 passenger.",
+    "output": "{\n  \"origin\": \"Raleigh\",\n  \"destination\": \"San Antonio\",\n  \"date\": \"2030-08-29\",\n  \"passengers\": 1\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_261",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Charlotte to Orlando on March 28, 2027 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Charlotte\",\n  \"destination\": \"Orlando\",\n  \"date\": \"2027-03-28\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_11",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Columbus to Denver on September 2, 2029 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Columbus\",\n  \"destination\": \"Denver\",\n  \"date\": \"2029-09-02\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_31",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Nashville to Los Angeles on December 12, 2026 for 4 passengers.",
+    "output": "{\n  \"origin\": \"Nashville\",\n  \"destination\": \"Los Angeles\",\n  \"date\": \"2026-12-12\",\n  \"passengers\": 4\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_8",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Boise to El Paso on April 18, 2028 for 3 passengers.",
+    "output": "{\n  \"origin\": \"Boise\",\n  \"destination\": \"El Paso\",\n  \"date\": \"2028-04-18\",\n  \"passengers\": 3\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_tool_call_arguments_179",
+    "instruction": "Generate valid JSON arguments for a function call book_flight(origin, destination, date, passengers).",
+    "input": "Book a flight from Little Rock to Des Moines on March 19, 2029 for 2 passengers.",
+    "output": "{\n  \"origin\": \"Little Rock\",\n  \"destination\": \"Des Moines\",\n  \"date\": \"2029-03-19\",\n  \"passengers\": 2\n}",
+    "task_type": "tool_call_arguments"
+  },
+  {
+    "id": "train_json_classification_25",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The shipment left the warehouse yesterday.",
+    "output": "{\n  \"label\": \"neutral\",\n  \"rationale\": \"The statement provides factual information about the shipment without expressing any positive or negative sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_87",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The paper compares two forecasting methods.",
+    "output": "{\n  \"label\": \"neutral\",\n  \"rationale\": \"The statement simply describes the content of the paper without expressing any positive or negative sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_6",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The service was fast and the staff was helpful.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The statement highlights fast service and helpful staff, both of which are positive attributes.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_124",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The resident gave a confident and organized presentation.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The words 'confident' and 'organized' indicate a favorable evaluation of the resident's presentation.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_269",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The chair is uncomfortable and poorly built.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement highlights discomfort and poor construction, both of which are negative qualities.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_7",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The food was cold and bland.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement criticizes the food for being cold and bland, which are negative qualities.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_234",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The conference includes keynote talks and posters.",
+    "output": "{\n  \"label\": \"neutral\",\n  \"rationale\": \"The statement simply describes the components of the conference without expressing any positive or negative sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_106",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The doctor listened carefully and answered all my questions.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The statement expresses satisfaction with the doctor's attentiveness and responsiveness, indicating a positive experience.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_285",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The clinic is located on the third floor.",
+    "output": "{\n  \"label\": \"neutral\",\n  \"rationale\": \"The statement provides factual information about the clinic's location without expressing any sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_190",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "Customer support never answered my emails.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement expresses dissatisfaction due to lack of response from customer support, indicating a negative sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_257",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The consultant gave excellent advice.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The statement describes the advice as 'excellent', which indicates a positive sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_132",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The appointment started an hour late.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement expresses dissatisfaction due to the appointment starting late, which is generally viewed negatively.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_223",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The app interface is intuitive and responsive.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The statement praises the app's interface for being intuitive and responsive, which are positive attributes.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_149",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The product arrived early and worked perfectly.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The statement highlights that the product arrived ahead of schedule and functioned as expected, both of which are positive experiences.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_178",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The train departs at 7:30 AM.",
+    "output": "{\n  \"label\": \"neutral\",\n  \"rationale\": \"The sentence provides factual information about the train's departure time without expressing any sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_92",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The book was thoughtful and beautifully written.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The words 'thoughtful' and 'beautifully written' express admiration and approval, indicating a positive sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_216",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The building opened in 2018.",
+    "output": "{\"label\": \"neutral\", \"rationale\": \"The statement provides a factual detail about the building's opening year without expressing any sentiment.\"}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_61",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The website kept freezing during checkout.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement describes a frustrating experience with the website freezing during checkout, indicating dissatisfaction.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_125",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The sample data was incomplete and inaccurate.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement expresses dissatisfaction with the sample data, describing it as incomplete and inaccurate, which are negative attributes.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_227",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The workshop was informative and practical.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The words 'informative' and 'practical' indicate a favorable impression of the workshop.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_192",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The report was full of mistakes.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement criticizes the report by highlighting that it contained many mistakes, which conveys a negative sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_205",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "Her presentation was engaging and easy to follow.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The sentence uses positive descriptors such as 'engaging' and 'easy to follow' to describe the presentation, indicating a favorable sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_105",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The dashboard displays recent activity.",
+    "output": "{\n  \"label\": \"neutral\",\n  \"rationale\": \"The statement is factual and does not express any positive or negative sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_73",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The tool made the task much easier.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The statement expresses satisfaction by indicating that the tool improved the task, which is a positive sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_62",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The battery capacity is 5000 mAh.",
+    "output": "{\"label\": \"neutral\", \"rationale\": \"The statement provides a factual specification about battery capacity without expressing any sentiment.\"}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_79",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "I was impressed by the battery life.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The statement expresses satisfaction and admiration for the battery life, indicating a positive sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_5",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The headphones sound amazing and fit comfortably.",
+    "output": "{\n  \"label\": \"positive\",\n  \"rationale\": \"The statement praises both the sound quality and comfort of the headphones, indicating satisfaction.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_51",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The package was missing several items.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement expresses dissatisfaction due to missing items, indicating a negative sentiment.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_256",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The product feels cheap and flimsy.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement criticizes the product's quality by describing it as cheap and flimsy, indicating dissatisfaction.\"\n}",
+    "task_type": "json_classification"
+  },
+  {
+    "id": "train_json_classification_130",
+    "instruction": "Classify the sentiment as exactly one of: positive, negative, neutral. Return valid JSON with keys: label, rationale.",
+    "input": "The patient summary omitted critical details.",
+    "output": "{\n  \"label\": \"negative\",\n  \"rationale\": \"The statement points out a significant flaw by stating that critical details were omitted, indicating a negative sentiment.\"\n}",
+    "task_type": "json_classification"
+  }
+]

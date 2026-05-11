@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "total_examples": 300,
+  "subset_sizes": {
+    "100": 300,
+    "50": 150,
+    "25": 75
+  },
+  "distributions": {
+    "100": {
+      "json_repair": 60,
+      "schema_generation": 60,
+      "json_extraction": 60,
+      "tool_call_arguments": 60,
+      "json_classification": 60
+    },
+    "50": {
+      "json_repair": 30,
+      "schema_generation": 30,
+      "json_extraction": 30,
+      "tool_call_arguments": 30,
+      "json_classification": 30
+    },
+    "25": {
+      "json_repair": 15,
+      "schema_generation": 15,
+      "json_extraction": 15,
+      "tool_call_arguments": 15,
+      "json_classification": 15
+    }
+  }
+}

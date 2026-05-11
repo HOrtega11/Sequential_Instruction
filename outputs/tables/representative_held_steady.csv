@@ -1,0 +1,100 @@
+id,category,instruction,input,reference_output,checkpoint1_output,checkpoint2_output,rougeL_checkpoint1,rougeL_checkpoint2,bertscore_f1_checkpoint1,bertscore_f1_checkpoint2,delta_rougeL,delta_bertscore_f1,combined_checkpoint1,combined_checkpoint2,delta_combined
+18,open_ended_generation,Reverse engineer this code to create a new version,"def factorialize(num):
+  factorial = 1
+  for i in range(1, num):
+    factorial *= i
+  
+  return factorial","def factorialize(num):
+  factorial = 1
+  for i in range(num, 0, -1):
+    factorial *= i
+  
+  return factorial","def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(","def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(num):
+  factorial = 1
+  for i in range(1, num+1):
+    factorial *= i
+  
+  return factorial
+
+def factorialize(",0.2631578947368421,0.2631578947368421,0.8883948922157288,0.8883948922157288,0.0,0.0,0.5757763934762854,0.5757763934762854,0.0
+27,open_ended_generation,Look up the boiling point of water.,,"The boiling point of water is 100°C (212°F), at standard atmospheric pressure. When heated at higher pressures, water's boiling point increases. For example, water will boil at a temperature of 115°C (239°F) at an atmospheric pressure of 1 bar. At higher pressures, such as those experienced at the bottom of the ocean, the boiling point of water can be as high as 374°C (705°F).","The boiling point of water is 100 degrees Celsius (212 degrees Fahrenheit) at sea level. At higher altitudes, the boiling point of water decreases. For example, at an altitude of 1,000 meters (3,280 feet), the boiling point of water is 96.8 degrees Celsius (206 degrees Fahrenheit). At an altitude of 2,000 meters (6,560 feet), the boiling point of water is 93.4 degrees Celsius (200 degrees Fahrenheit). At an altitude of 3,000 meters (9,840 feet), the boiling point of water is 90.1 degrees Celsius (194 degrees Fahrenheit). At an altitude of 4,000 meters (13,120 feet), the boiling point of water is 86.8 degrees Celsius (188 degrees Fahrenheit). At an altitude of 5,000 meters (16,400 feet), the boiling point of water is 8","The boiling point of water is 100 degrees Celsius (212 degrees Fahrenheit) at sea level. At higher altitudes, the boiling point of water decreases. For example, at an altitude of 1,000 meters (3,280 feet), the boiling point of water is 96.8 degrees Celsius (206 degrees Fahrenheit). At an altitude of 2,000 meters (6,560 feet), the boiling point of water is 93.4 degrees Celsius (200 degrees Fahrenheit). At an altitude of 3,000 meters (9,840 feet), the boiling point of water is 90.1 degrees Celsius (194 degrees Fahrenheit). At an altitude of 4,000 meters (13,120 feet), the boiling point of water is 86.8 degrees Celsius (188 degrees Fahrenheit). At an altitude of 5,000 meters (16,400 feet), the boiling point of water is 8",0.2912621359223301,0.2912621359223301,0.8755404949188232,0.8755404949188232,0.0,0.0,0.5834013154205766,0.5834013154205766,0.0
+32,rewriting,Rewrite the following sentence using active voice.,The news report was read by the captain.,The captain read the news report.,The captain read the news report.,The captain read the news report.,1.0,1.0,1.000000238418579,1.000000238418579,0.0,0.0,1.0000001192092896,1.0000001192092896,0.0
+36,open_ended_generation,Arrange the words in the given sentence to form a grammatically correct sentence.,quickly the brown fox jumped,The quick brown fox jumped quickly.,The brown fox jumped quickly.,The brown fox jumped quickly.,0.9090909090909091,0.9090909090909091,0.9854327440261841,0.9854327440261841,0.0,0.0,0.9472618265585466,0.9472618265585466,0.0
+47,open_ended_generation,Explain the concept of artificial intelligence in simple terms.,,"Artificial Intelligence (AI) is the ability of machines and computers to make decisions and complete tasks similar to what humans can do. AI can learn from data, recognize patterns, and make predictions. AI technology can automate tedious and complex processes, helping to reduce human effort and errors, and enable more accurate and efficient decisions. AI can be used in a wide range of applications, from robotics and autonomous vehicles to healthcare and finance. It is increasingly becoming an integral part of everyday life.","Artificial intelligence (AI) is the ability of machines to perform tasks that normally require human intelligence, such as learning, problem-solving, and decision-making. AI systems are designed to mimic human behavior and can be used to automate tasks, analyze data, and make predictions. AI is used in a variety of applications, from self-driving cars to medical diagnosis. AI is an exciting field of research and development that has the potential to revolutionize the way we live and work. It is a rapidly growing field that is expected to have a major impact on the future of technology. AI is a powerful tool that can be used to solve complex problems and make our lives easier. It is a technology that has the potential to change the world. AI is a powerful tool that can be used to solve complex problems and make our lives easier. It is a technology that has the potential to change the world. AI is a powerful tool that can be used to solve complex problems and make our lives easier. It is a technology that has the potential to change the world. AI is a powerful tool that can be used to solve complex problems and make our lives easier. It is a technology that has the potential","Artificial intelligence (AI) is the ability of machines to perform tasks that normally require human intelligence, such as learning, problem-solving, and decision-making. AI systems are designed to mimic human behavior and can be used to automate tasks, analyze data, and make predictions. AI is used in a variety of applications, from self-driving cars to medical diagnosis. AI is an exciting field of research and development that has the potential to revolutionize the way we live and work. It is a rapidly growing field that is expected to have a major impact on the future of technology. AI is a powerful tool that can be used to solve complex problems and make our lives easier. It is a technology that has the potential to change the world. AI is a powerful tool that can be used to solve complex problems and make our lives easier. It is a technology that has the potential to change the world. AI is a powerful tool that can be used to solve complex problems and make our lives easier. It is a technology that has the potential to change the world. AI is a powerful tool that can be used to solve complex problems and make our lives easier. It is a technology that has the potential",0.21476510067114093,0.21476510067114093,0.8870590329170227,0.8870590329170227,0.0,0.0,0.5509120667940818,0.5509120667940818,0.0

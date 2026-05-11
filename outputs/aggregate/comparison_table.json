@@ -1,0 +1,29 @@
+{
+  "checkpoint0": {
+    "alpaca_pairwise_win_rate_vs_previous_checkpoint": null,
+    "alpaca_rougeL": 0.16371302436352236,
+    "alpaca_bertscore_f1": 0.8509855538606643,
+    "json_validity_rate": 0.0,
+    "json_schema_compliance_rate": 0.0,
+    "json_exact_match_rate": 0.0
+  },
+  "checkpoint1": {
+    "alpaca_pairwise_win_rate_vs_previous_checkpoint": 0.14,
+    "alpaca_rougeL": 0.2540827763729938,
+    "alpaca_bertscore_f1": 0.8712018066644669,
+    "json_validity_rate": 0.01,
+    "json_schema_compliance_rate": 0.0,
+    "json_exact_match_rate": 0.0
+  },
+  "checkpoint2": {
+    "alpaca_pairwise_win_rate_vs_previous_checkpoint": 0.38,
+    "alpaca_rougeL": 0.26119659360519887,
+    "alpaca_bertscore_f1": 0.8751538276672364,
+    "json_validity_rate": 0.0,
+    "json_schema_compliance_rate": 0.0,
+    "json_exact_match_rate": 0.0
+  },
+  "notes": {
+    "alpaca_pairwise_win_rate_vs_previous_checkpoint": "These judge win rates are pairwise and opponent-dependent. Checkpoint1 is judged against checkpoint0, and checkpoint2 is judged against checkpoint1."
+  }
+}

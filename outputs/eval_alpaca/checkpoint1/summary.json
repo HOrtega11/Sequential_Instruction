@@ -1,0 +1,23 @@
+{
+  "checkpoint_name": "checkpoint1",
+  "model_path": "outputs/checkpoint1",
+  "eval_path": "data/eval/alpaca_eval.json",
+  "num_examples": 100,
+  "automatic_metrics": {
+    "rouge1": 0.31437039284113755,
+    "rouge2": 0.17926815639227012,
+    "rougeL": 0.2540827763729938,
+    "rougeLsum": 0.26552131529600126,
+    "bertscore_precision": 0.8448442238569259,
+    "bertscore_recall": 0.9012835240364074,
+    "bertscore_f1": 0.8712018066644669,
+    "task_completion_rate": 1.0,
+    "avg_output_tokens": 151.0,
+    "min_output_tokens": 3,
+    "max_output_tokens": 230
+  },
+  "generation_settings": {
+    "max_new_tokens": 256,
+    "temperature": 0.0
+  }
+}

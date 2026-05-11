@@ -1,0 +1,26 @@
+{
+  "teacher_model": "gpt-4.1",
+  "temperature": 0.2,
+  "max_tokens": 200,
+  "random_seed": 42,
+  "train_per_task_requested": 60,
+  "eval_per_task_requested": 20,
+  "train_examples_saved": 300,
+  "eval_examples_saved": 100,
+  "train_failures": 0,
+  "eval_failures": 0,
+  "task_counts_train": {
+    "json_repair": 60,
+    "schema_generation": 60,
+    "json_extraction": 60,
+    "json_classification": 60,
+    "tool_call_arguments": 60
+  },
+  "task_counts_eval": {
+    "json_repair": 20,
+    "tool_call_arguments": 20,
+    "json_classification": 20,
+    "json_extraction": 20,
+    "schema_generation": 20
+  }
+}

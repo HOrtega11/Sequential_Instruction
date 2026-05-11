@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code / system files
+.vscode/
+.DS_Store
+
+# Windows metadata from WSL/Windows transfers
+*:Zone.Identifier
+
+# Logs
+logs/
+*.out
+*.err
+
+# Model checkpoints and training artifacts
+outputs/checkpoint*/
+outputs/ablations/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+

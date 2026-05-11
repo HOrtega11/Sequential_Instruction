@@ -1,0 +1,89 @@
+{
+  "task_type": "json",
+  "mode": "adjacent",
+  "checkpoint_names": [
+    "checkpoint0",
+    "checkpoint1",
+    "checkpoint2"
+  ],
+  "comparisons": [
+    {
+      "task_type": "json",
+      "left_model": "checkpoint0",
+      "right_model": "checkpoint1",
+      "output_path": "outputs/judge/json_checkpoint0_vs_checkpoint1.json",
+      "summary": {
+        "num_examples": 100,
+        "left_model": "checkpoint0",
+        "right_model": "checkpoint1",
+        "left_win_rate": 0.51,
+        "right_win_rate": 0.4,
+        "tie_rate": 0.09,
+        "invalid_rate": 0.0,
+        "counts": {
+          "checkpoint0": 51,
+          "checkpoint1": 40,
+          "tie": 9,
+          "invalid": 0
+        },
+        "average_dimension_scores": {
+          "checkpoint0": {
+            "instruction_following": 3.71,
+            "correctness": 3.86,
+            "clarity": 3.88,
+            "completeness": 4.02,
+            "structured_output_validity": 3.53,
+            "hallucination_risk": 1.19
+          },
+          "checkpoint1": {
+            "instruction_following": 3.54,
+            "correctness": 4.25,
+            "clarity": 3.33,
+            "completeness": 3.96,
+            "structured_output_validity": 3.35,
+            "hallucination_risk": 1.07
+          }
+        }
+      }
+    },
+    {
+      "task_type": "json",
+      "left_model": "checkpoint1",
+      "right_model": "checkpoint2",
+      "output_path": "outputs/judge/json_checkpoint1_vs_checkpoint2.json",
+      "summary": {
+        "num_examples": 100,
+        "left_model": "checkpoint1",
+        "right_model": "checkpoint2",
+        "left_win_rate": 0.18,
+        "right_win_rate": 0.23,
+        "tie_rate": 0.59,
+        "invalid_rate": 0.0,
+        "counts": {
+          "checkpoint1": 18,
+          "checkpoint2": 23,
+          "tie": 59,
+          "invalid": 0
+        },
+        "average_dimension_scores": {
+          "checkpoint1": {
+            "instruction_following": 3.46,
+            "correctness": 4.63,
+            "clarity": 3.91,
+            "completeness": 4.02,
+            "structured_output_validity": 3.4,
+            "hallucination_risk": 1.12
+          },
+          "checkpoint2": {
+            "instruction_following": 3.23,
+            "correctness": 4.27,
+            "clarity": 3.68,
+            "completeness": 3.85,
+            "structured_output_validity": 3.27,
+            "hallucination_risk": 1.44
+          }
+        }
+      }
+    }
+  ]
+}
