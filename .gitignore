@@ -1,31 +1,15 @@
-# Virtual environments
 venv/
-.venv/
-env/
-
-# Python cache
 __pycache__/
 *.pyc
-*.pyo
-
-# VS Code / system files
-.vscode/
-.DS_Store
-
-# Windows metadata from WSL/Windows transfers
 *:Zone.Identifier
 
-# Logs
-logs/
-*.out
-*.err
-
-# Model checkpoints and training artifacts
-outputs/checkpoint*/
+outputs/**/checkpoint-*/
+outputs/checkpoint2_json25/
+outputs/checkpoint2_json50/
 outputs/ablations/
-*.safetensors
-*.bin
-*.pt
-*.pth
 
-
+optimizer.pt
+scheduler.pt
+scaler.pt
+rng_state.pth
+training_args.bin

@@ -1,0 +1,83 @@
+===== Stage 2 (JSON 25) Training Job Started =====
+Job ID: 728211
+Node: gpu001
+Start time: Wed Apr 15 20:00:43 CDT 2026
+Python: /home/xzy032/.conda/envs/seq_tuning/bin/python
+Python 3.10.20
+Conda env: seq_tuning
+Working directory: /work/xzy032/sequential_instruction
+CUDA_VISIBLE_DEVICES: 0
+Wed Apr 15 20:00:46 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 545.23.08              Driver Version: 545.23.08    CUDA Version: 12.3     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla V100S-PCIE-32GB          On  | 00000000:3B:00.0 Off |                  Off |
+| N/A   28C    P0              24W / 250W |      0MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Checkpoint1 found. Proceeding with Stage 2 (json_train_25).
+Installed package snapshot:
+accelerate               1.13.0
+bitsandbytes             0.49.2
+datasets                 4.8.4
+peft                     0.11.1
+torch                    2.3.1
+torchaudio               2.3.1
+torchvision              0.18.1
+transformers             4.57.6
+trl                      1.1.0
+===== Running Stage 2 Training (json_train_25) =====
+===== Stage 2: JSON Fine-Tuning from Stage 1 Checkpoint =====
+Base student model: microsoft/Phi-3-mini-4k-instruct
+Stage 1 checkpoint: outputs/checkpoint1
+Training data: data/json_instruct/json_train_25.json
+Output dir: outputs/checkpoint2_json25
+Device summary:
+{
+  "cuda_available": true,
+  "device_count": 1,
+  "devices": [
+    {
+      "index": 0,
+      "name": "Tesla V100S-PCIE-32GB",
+      "total_memory_gb": 31.74,
+      "major": 7,
+      "minor": 0
+    }
+  ]
+}
+Loading Stage 2 JSON training data from: data/json_instruct/json_train_25.json
+Loaded 75 training examples
+Tokenized dataset size: 75
+Loading base model for Stage 2: microsoft/Phi-3-mini-4k-instruct
+Loading Stage 1 adapter from: outputs/checkpoint1
+trainable params: 3,145,728 || all params: 3,824,225,280 || trainable%: 0.0823
+Starting Stage 2 training on teacher-generated JSON data...
+{'loss': 1.0563, 'grad_norm': 0.9557449221611023, 'learning_rate': 3.015368960704584e-07, 'epoch': 2.0}
+{'train_runtime': 14.1697, 'train_samples_per_second': 10.586, 'train_steps_per_second': 0.706, 'train_loss': 1.0563483238220215, 'epoch': 2.0}
+Saving Stage 2 adapter and tokenizer to: outputs/checkpoint2_json25
+Stage 2 training complete.
+Train metrics:
+{
+  "train_runtime": 14.1697,
+  "train_samples_per_second": 10.586,
+  "train_steps_per_second": 0.706,
+  "total_flos": 412616555974656.0,
+  "train_loss": 1.0563483238220215,
+  "epoch": 2.0
+}
+Checkpoint2_json25 successfully created.
+===== Stage 2 (JSON 25) Training Job Finished =====
+End time: Wed Apr 15 20:01:34 CDT 2026

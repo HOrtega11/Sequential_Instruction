@@ -1,0 +1,72 @@
+{
+  "stage": "stage2",
+  "model_name": "microsoft/Phi-3-mini-4k-instruct",
+  "stage1_dir": "outputs/checkpoint1",
+  "train_path": "data/json_instruct/json_train_validated.json",
+  "output_dir": "outputs/checkpoint2",
+  "device_summary": {
+    "cuda_available": true,
+    "device_count": 1,
+    "devices": [
+      {
+        "index": 0,
+        "name": "Tesla V100S-PCIE-32GB",
+        "total_memory_gb": 31.74,
+        "major": 7,
+        "minor": 0
+      }
+    ]
+  },
+  "api_config_used": {
+    "base_url": null
+  },
+  "generation_config_used": {
+    "temperature": 0.2,
+    "max_tokens": 200
+  },
+  "lora_config_used": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "quantization_config_used": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "float16"
+  },
+  "stage2_effective_config": {
+    "learning_rate": 1e-05,
+    "epochs": 2,
+    "batch_size": 4,
+    "max_seq_length": 1024,
+    "gradient_accumulation_steps": 4,
+    "warmup_ratio": 0.03,
+    "logging_steps": 10,
+    "save_steps": 100,
+    "save_total_limit": 2,
+    "seed": 42
+  },
+  "output_paths": {
+    "stage1_dir": "outputs/checkpoint1",
+    "stage2_dir": "outputs/checkpoint2",
+    "checkpoint0_dir": "outputs/checkpoint0",
+    "eval_alpaca_dir": "outputs/eval_alpaca",
+    "eval_json_dir": "outputs/eval_json",
+    "judge_dir": "outputs/judge",
+    "aggregate_dir": "outputs/aggregate",
+    "tables_dir": "outputs/tables",
+    "logs_dir": "logs",
+    "figures_dir": "figures",
+    "teacher_failures_path": "outputs/json_teacher_generation_failures.json",
+    "teacher_metadata_path": "outputs/json_teacher_generation_metadata.json"
+  },
+  "num_training_examples": 300,
+  "num_tokenized_examples": 300
+}

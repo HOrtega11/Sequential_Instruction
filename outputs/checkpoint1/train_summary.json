@@ -1,0 +1,14 @@
+{
+  "stage": "stage1",
+  "status": "completed",
+  "train_metrics": {
+    "train_runtime": 10686.1006,
+    "train_samples_per_second": 9.709,
+    "train_steps_per_second": 0.607,
+    "total_flos": 3.8963583911079936e+17,
+    "train_loss": 1.0750758863326175,
+    "epoch": 2.0
+  },
+  "train_path": "data/alpaca/alpaca_train.json",
+  "output_dir": "outputs/checkpoint1"
+}

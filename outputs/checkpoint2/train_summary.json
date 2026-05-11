@@ -1,0 +1,15 @@
+{
+  "stage": "stage2",
+  "status": "completed",
+  "train_metrics": {
+    "train_runtime": 49.5626,
+    "train_samples_per_second": 12.106,
+    "train_steps_per_second": 0.767,
+    "total_flos": 1662984658796544.0,
+    "train_loss": 0.9945833432046991,
+    "epoch": 2.0
+  },
+  "stage1_dir": "outputs/checkpoint1",
+  "train_path": "data/json_instruct/json_train_validated.json",
+  "output_dir": "outputs/checkpoint2"
+}
