@@ -1,26 +1,28 @@
 {
   "num_examples": 100,
-  "json_validity_rate": 0.0,
-  "schema_compliance_rate": 0.0,
-  "exact_match_rate": 0.0,
-  "field_precision": 0.0,
-  "field_recall": 0.0,
-  "field_f1": 0.0,
+  "json_validity_rate": 0.54,
+  "schema_compliance_rate": 0.38,
+  "exact_match_rate": 0.16,
+  "field_precision": 0.3575,
+  "field_recall": 0.3575,
+  "field_f1": 0.3575,
   "common_error_taxonomy": {
     "missing_comma": 2,
-    "markdown_fence": 84,
-    "missing_bracket_or_brace": 6,
-    "extra_text_after_json": 8
+    "other_invalid_json": 20,
+    "missing_bracket_or_brace": 3,
+    "markdown_fence": 17,
+    "invalid_boolean_or_literal": 3,
+    "truncated_output": 1
   },
   "per_task": {
     "json_repair": {
       "num_examples": 20,
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
-      "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0
+      "json_validity_rate": 0.75,
+      "schema_compliance_rate": 0.75,
+      "exact_match_rate": 0.75,
+      "field_precision": 0.75,
+      "field_recall": 0.75,
+      "field_f1": 0.75
     },
     "tool_call_arguments": {
       "num_examples": 20,
@@ -33,21 +35,21 @@
     },
     "json_classification": {
       "num_examples": 20,
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
+      "json_validity_rate": 0.95,
+      "schema_compliance_rate": 0.95,
       "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0
+      "field_precision": 0.45,
+      "field_recall": 0.45,
+      "field_f1": 0.45
     },
     "json_extraction": {
       "num_examples": 20,
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
-      "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0
+      "json_validity_rate": 1.0,
+      "schema_compliance_rate": 0.2,
+      "exact_match_rate": 0.05,
+      "field_precision": 0.5875,
+      "field_recall": 0.5875,
+      "field_f1": 0.5875
     },
     "schema_generation": {
       "num_examples": 20,
@@ -63,7 +65,7 @@
   "model_path": "outputs/checkpoint0",
   "eval_path": "data/eval/json_eval.json",
   "generation_settings": {
-    "max_new_tokens": 512,
+    "max_new_tokens": 128,
     "temperature": 0.0
   }
 }

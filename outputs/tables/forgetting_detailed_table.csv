@@ -1,1 +1,4 @@
-
+metric,delta_checkpoint2_minus_checkpoint1
+pairwise_judge_preference_gap,0.16
+rougeL,0.007113817232205055
+bertscore_f1,0.003952021002769479

@@ -79,7 +79,7 @@ CONFIG = {
     },
     "evaluation": {
         "alpaca_max_new_tokens": 256,
-        "json_max_new_tokens": 512,
+        "json_max_new_tokens": 128,
         "temperature": 0.0,
         "judge_temperature": 0.0,
         "judge_max_tokens": 512,

@@ -1,67 +1,64 @@
 {
   "num_examples": 100,
-  "json_validity_rate": 0.01,
-  "schema_compliance_rate": 0.0,
-  "exact_match_rate": 0.0,
-  "field_precision": 0.005,
-  "field_recall": 0.005,
-  "field_f1": 0.005,
-  "common_error_taxonomy": {
-    "missing_bracket_or_brace": 60,
-    "extra_text_after_json": 39
-  },
+  "json_validity_rate": 1.0,
+  "schema_compliance_rate": 0.8,
+  "exact_match_rate": 0.39,
+  "field_precision": 0.6575,
+  "field_recall": 0.6575,
+  "field_f1": 0.6575,
+  "common_error_taxonomy": {},
   "per_task": {
     "json_repair": {
       "num_examples": 20,
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
-      "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0
+      "json_validity_rate": 1.0,
+      "schema_compliance_rate": 1.0,
+      "exact_match_rate": 0.95,
+      "field_precision": 0.9875,
+      "field_recall": 0.9875,
+      "field_f1": 0.9875
     },
     "tool_call_arguments": {
       "num_examples": 20,
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
-      "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0
+      "json_validity_rate": 1.0,
+      "schema_compliance_rate": 1.0,
+      "exact_match_rate": 1.0,
+      "field_precision": 1.0,
+      "field_recall": 1.0,
+      "field_f1": 1.0
     },
     "json_classification": {
       "num_examples": 20,
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
+      "json_validity_rate": 1.0,
+      "schema_compliance_rate": 1.0,
       "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0
+      "field_precision": 0.5,
+      "field_recall": 0.5,
+      "field_f1": 0.5
     },
     "json_extraction": {
       "num_examples": 20,
-      "json_validity_rate": 0.05,
+      "json_validity_rate": 1.0,
       "schema_compliance_rate": 0.0,
       "exact_match_rate": 0.0,
-      "field_precision": 0.025,
-      "field_recall": 0.025,
-      "field_f1": 0.025
+      "field_precision": 0.55,
+      "field_recall": 0.55,
+      "field_f1": 0.55
     },
     "schema_generation": {
       "num_examples": 20,
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
+      "json_validity_rate": 1.0,
+      "schema_compliance_rate": 1.0,
       "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0
+      "field_precision": 0.25,
+      "field_recall": 0.25,
+      "field_f1": 0.25
     }
   },
   "checkpoint_name": "checkpoint1",
   "model_path": "outputs/checkpoint1",
   "eval_path": "data/eval/json_eval.json",
   "generation_settings": {
-    "max_new_tokens": 512,
+    "max_new_tokens": 128,
     "temperature": 0.0
   }
 }

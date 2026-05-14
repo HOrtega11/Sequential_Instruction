@@ -42,27 +42,29 @@
   },
   "json_automatic_metrics": {
     "checkpoint0": {
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
-      "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0,
+      "json_validity_rate": 0.54,
+      "schema_compliance_rate": 0.38,
+      "exact_match_rate": 0.16,
+      "field_precision": 0.3575,
+      "field_recall": 0.3575,
+      "field_f1": 0.3575,
       "common_error_taxonomy": {
         "missing_comma": 2,
-        "markdown_fence": 84,
-        "missing_bracket_or_brace": 6,
-        "extra_text_after_json": 8
+        "other_invalid_json": 20,
+        "missing_bracket_or_brace": 3,
+        "markdown_fence": 17,
+        "invalid_boolean_or_literal": 3,
+        "truncated_output": 1
       },
       "per_task": {
         "json_repair": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
-          "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "json_validity_rate": 0.75,
+          "schema_compliance_rate": 0.75,
+          "exact_match_rate": 0.75,
+          "field_precision": 0.75,
+          "field_recall": 0.75,
+          "field_f1": 0.75
         },
         "tool_call_arguments": {
           "num_examples": 20,
@@ -75,21 +77,21 @@
         },
         "json_classification": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
+          "json_validity_rate": 0.95,
+          "schema_compliance_rate": 0.95,
           "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "field_precision": 0.45,
+          "field_recall": 0.45,
+          "field_f1": 0.45
         },
         "json_extraction": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
-          "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 0.2,
+          "exact_match_rate": 0.05,
+          "field_precision": 0.5875,
+          "field_recall": 0.5875,
+          "field_f1": 0.5875
         },
         "schema_generation": {
           "num_examples": 20,
@@ -103,120 +105,114 @@
       }
     },
     "checkpoint1": {
-      "json_validity_rate": 0.01,
-      "schema_compliance_rate": 0.0,
-      "exact_match_rate": 0.0,
-      "field_precision": 0.005,
-      "field_recall": 0.005,
-      "field_f1": 0.005,
-      "common_error_taxonomy": {
-        "missing_bracket_or_brace": 60,
-        "extra_text_after_json": 39
-      },
+      "json_validity_rate": 1.0,
+      "schema_compliance_rate": 0.8,
+      "exact_match_rate": 0.39,
+      "field_precision": 0.6575,
+      "field_recall": 0.6575,
+      "field_f1": 0.6575,
+      "common_error_taxonomy": {},
       "per_task": {
         "json_repair": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
-          "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 1.0,
+          "exact_match_rate": 0.95,
+          "field_precision": 0.9875,
+          "field_recall": 0.9875,
+          "field_f1": 0.9875
         },
         "tool_call_arguments": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
-          "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 1.0,
+          "exact_match_rate": 1.0,
+          "field_precision": 1.0,
+          "field_recall": 1.0,
+          "field_f1": 1.0
         },
         "json_classification": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 1.0,
           "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "field_precision": 0.5,
+          "field_recall": 0.5,
+          "field_f1": 0.5
         },
         "json_extraction": {
           "num_examples": 20,
-          "json_validity_rate": 0.05,
+          "json_validity_rate": 1.0,
           "schema_compliance_rate": 0.0,
           "exact_match_rate": 0.0,
-          "field_precision": 0.025,
-          "field_recall": 0.025,
-          "field_f1": 0.025
+          "field_precision": 0.55,
+          "field_recall": 0.55,
+          "field_f1": 0.55
         },
         "schema_generation": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 1.0,
           "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "field_precision": 0.25,
+          "field_recall": 0.25,
+          "field_f1": 0.25
         }
       }
     },
     "checkpoint2": {
-      "json_validity_rate": 0.0,
-      "schema_compliance_rate": 0.0,
-      "exact_match_rate": 0.0,
-      "field_precision": 0.0,
-      "field_recall": 0.0,
-      "field_f1": 0.0,
-      "common_error_taxonomy": {
-        "missing_bracket_or_brace": 64,
-        "extra_text_after_json": 36
-      },
+      "json_validity_rate": 1.0,
+      "schema_compliance_rate": 0.8,
+      "exact_match_rate": 0.39,
+      "field_precision": 0.665,
+      "field_recall": 0.665,
+      "field_f1": 0.665,
+      "common_error_taxonomy": {},
       "per_task": {
         "json_repair": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
-          "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 1.0,
+          "exact_match_rate": 0.95,
+          "field_precision": 0.9875,
+          "field_recall": 0.9875,
+          "field_f1": 0.9875
         },
         "tool_call_arguments": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
-          "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 1.0,
+          "exact_match_rate": 1.0,
+          "field_precision": 1.0,
+          "field_recall": 1.0,
+          "field_f1": 1.0
         },
         "json_classification": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 1.0,
           "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "field_precision": 0.5,
+          "field_recall": 0.5,
+          "field_f1": 0.5
         },
         "json_extraction": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
+          "json_validity_rate": 1.0,
           "schema_compliance_rate": 0.0,
           "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "field_precision": 0.5625,
+          "field_recall": 0.5625,
+          "field_f1": 0.5625
         },
         "schema_generation": {
           "num_examples": 20,
-          "json_validity_rate": 0.0,
-          "schema_compliance_rate": 0.0,
+          "json_validity_rate": 1.0,
+          "schema_compliance_rate": 1.0,
           "exact_match_rate": 0.0,
-          "field_precision": 0.0,
-          "field_recall": 0.0,
-          "field_f1": 0.0
+          "field_precision": 0.275,
+          "field_recall": 0.275,
+          "field_f1": 0.275
         }
       }
     }
@@ -357,25 +353,25 @@
       "alpaca_pairwise_win_rate_vs_previous_checkpoint": null,
       "alpaca_rougeL": 0.16371302436352236,
       "alpaca_bertscore_f1": 0.8509855538606643,
-      "json_validity_rate": 0.0,
-      "json_schema_compliance_rate": 0.0,
-      "json_exact_match_rate": 0.0
+      "json_validity_rate": 0.54,
+      "json_schema_compliance_rate": 0.38,
+      "json_exact_match_rate": 0.16
     },
     "checkpoint1": {
       "alpaca_pairwise_win_rate_vs_previous_checkpoint": 0.14,
       "alpaca_rougeL": 0.2540827763729938,
       "alpaca_bertscore_f1": 0.8712018066644669,
-      "json_validity_rate": 0.01,
-      "json_schema_compliance_rate": 0.0,
-      "json_exact_match_rate": 0.0
+      "json_validity_rate": 1.0,
+      "json_schema_compliance_rate": 0.8,
+      "json_exact_match_rate": 0.39
     },
     "checkpoint2": {
       "alpaca_pairwise_win_rate_vs_previous_checkpoint": 0.38,
       "alpaca_rougeL": 0.26119659360519887,
       "alpaca_bertscore_f1": 0.8751538276672364,
-      "json_validity_rate": 0.0,
-      "json_schema_compliance_rate": 0.0,
-      "json_exact_match_rate": 0.0
+      "json_validity_rate": 1.0,
+      "json_schema_compliance_rate": 0.8,
+      "json_exact_match_rate": 0.39
     },
     "notes": {
       "alpaca_pairwise_win_rate_vs_previous_checkpoint": "These judge win rates are pairwise and opponent-dependent. Checkpoint1 is judged against checkpoint0, and checkpoint2 is judged against checkpoint1."

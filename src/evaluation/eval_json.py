@@ -31,6 +31,65 @@ def try_parse_json(text: str) -> Tuple[bool, Optional[Any], Optional[str]]:
     except Exception as e:
         return False, None, str(e)
 
+def extract_first_json(text: str) -> str:
+    """
+    Extract the first balanced JSON object or array from model output.
+    This removes repeated examples or extra text after the first JSON answer.
+    """
+    if not text:
+        return text
+
+    start = None
+    opening = None
+    closing = None
+
+    for i, ch in enumerate(text):
+        if ch == "{":
+            start = i
+            opening = "{"
+            closing = "}"
+            break
+        if ch == "[":
+            start = i
+            opening = "["
+            closing = "]"
+            break
+
+    if start is None:
+        return text.strip()
+
+    depth = 0
+    in_string = False
+    escape = False
+
+    for i in range(start, len(text)):
+        ch = text[i]
+
+        if escape:
+            escape = False
+            continue
+
+        if ch == "\\":
+            escape = True
+            continue
+
+        if ch == '"':
+            in_string = not in_string
+            continue
+
+        if in_string:
+            continue
+
+        if ch == opening:
+            depth += 1
+        elif ch == closing:
+            depth -= 1
+
+            if depth == 0:
+                return text[start : i + 1].strip()
+
+    return text[start:].strip()
+
 
 def canonicalize(obj: Any) -> str:
     return json.dumps(obj, sort_keys=True, ensure_ascii=False)
@@ -449,13 +508,15 @@ def main() -> None:
             input_text=example.get("input", ""),
         )
 
-        pred_text = generate_response_with_loaded_model(
+        raw_pred_text = generate_response_with_loaded_model(
             model=model,
             tokenizer=tokenizer,
             prompt=prompt,
             max_new_tokens=max_new_tokens,
             temperature=temperature,
         )
+
+        pred_text = extract_first_json(raw_pred_text)
 
         metrics = evaluate_example(
             pred_text=pred_text,
@@ -469,6 +530,7 @@ def main() -> None:
             "instruction": example["instruction"],
             "input": example.get("input", ""),
             "reference_output": example["output"],
+            "raw_predicted_output": raw_pred_text,
             "predicted_output": pred_text,
             **metrics,
         }

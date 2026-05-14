@@ -55,8 +55,8 @@
       "avg_rougeL_checkpoint2": 0.2679338395171262,
       "delta_rougeL": 0.006795585982545052,
       "avg_bertscore_checkpoint1": 0.8704838290143369,
-      "avg_bertscore_checkpoint2": 0.8738491935516471,
-      "delta_bertscore_f1": 0.0033653645373102445,
+      "avg_bertscore_checkpoint2": 0.8738491926620255,
+      "delta_bertscore_f1": 0.0033653636476886806,
       "completion_rate_checkpoint1": 1.0,
       "completion_rate_checkpoint2": 1.0,
       "delta_completion_rate": 0.0
@@ -477,8 +477,8 @@
         "avg_rougeL_checkpoint2": 0.2679338395171262,
         "delta_rougeL": 0.006795585982545052,
         "avg_bertscore_checkpoint1": 0.8704838290143369,
-        "avg_bertscore_checkpoint2": 0.8738491935516471,
-        "delta_bertscore_f1": 0.0033653645373102445,
+        "avg_bertscore_checkpoint2": 0.8738491926620255,
+        "delta_bertscore_f1": 0.0033653636476886806,
         "completion_rate_checkpoint1": 1.0,
         "completion_rate_checkpoint2": 1.0,
         "delta_completion_rate": 0.0
